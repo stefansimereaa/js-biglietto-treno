@@ -5,6 +5,6 @@ Chiedere all'utente il numero di chilometri che vuole percorrere e l'eta del pas
 1. Recuperare elementi dalla pagina
 1. Chiedere all'utente il numero di chilometri che vuole percorrere
 1. Chiedere all'utente l'eta
-1. Calcolare lo il prezzo del biglietto in base ai chilometri che vuole percorrere l'utente (e lasciare solo 2 decimali)
+1. Calcolare il prezzo del biglietto in base ai chilometri che vuole percorrere l'utente (e lasciare solo 2 decimali)
 1. Calcolare lo sconto in base all'eta dell'utente
 1. Inserire il risultato nell'elemento
