@@ -28,14 +28,16 @@ console.log(userDataAge);
 
 // Validazione
 
+
+
 // Effettivo Svolgimento
 
 // Chiedere all'utente il numero di chilometri che vuole percorrere
-const userKm = prompt(`Quanti Km vuoi percorrere?`, `10`);
+const userKm = prompt(`Quanti Km vuoi percorrere?`, `10`).trim().toLowerCase();
 console.log(userKm);
 
 // Chiedere all'utente l'eta
-const userAge = prompt(`Quanti anni hai?`, `20`);
+const userAge = prompt(`Quanti anni hai?`, `20`).trim().toLowerCase();
 console.log(userAge);
 
 // Calcolare il prezzo del biglietto
@@ -60,7 +62,6 @@ console.log(priceDiscount);
 console.log(priceWithDiscount);
 
 // Inserire i risultati nei elemeti 
-
 ticketPrice.innerText += ' ' + priceWithDiscount.toFixed(2);
 ticketNoDiscount.innerText += ' ' + ticketPriceCalc.toFixed(2);
 userDataKm.innerText += ' ' + userKm;
